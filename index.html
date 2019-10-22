@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <h1> Crystal Game</h1>
+
+    <div class="instructions">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>
+            There are four crystals below. By clicking on a crystal you will add a certain number of points to your
+            total
+            score
+        </p>
+        <p>
+            You will win the game by matching your total score to the random number, you lose the game if your total
+            score goes above the random number.
+        </p>
+        <p>
+            The value of each crystal is hidden from you until you click on it.
+        </p>
+        <p>
+            Each time when the game starts, the game will change the value of each crystal.
+        </p>
+    </div>
+
+    <div id='target'>Random Number</div>
+    <div id='stats'>
+        <p id='message'></p>
+        <p id='wins'>Wins: </p>
+        <p id='losses'>Loses: </p>
+    </div>
+
+    <div class='buttons'>
+        <img class='diamond' src="assets/images/7.png">
+        <img class='diamond' src="assets/images/8.png">
+        <img class='diamond' src="assets/images/9.png">
+        <img class='diamond' src="assets/images/10.png">
+    </div>
+
+    <p class='totalScorePrompt'> Your total Score is: </p>
+    <div id='score'></div>
+
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

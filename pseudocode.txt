@@ -1,0 +1,19 @@
+// Initializations
+Wins
+Losses
+Initial Random Number
+4 Diamond Random Numbers
+
+// DOM Grabs
+Initial Random Number Element
+User Score
+
+// Restart
+Reset the Initial Random Number
+Reset User Score
+Recalculate 4 diamond values
+
+// Diamond Click
+Add that diamonds value to user score
+If that sum === the target sum, increment counter and Reset
+If that sum >== the target sum, increment loss and reset

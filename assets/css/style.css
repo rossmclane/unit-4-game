@@ -1,0 +1,60 @@
+h1 {
+    background-color: rgba(255, 166, 0, 0.842);
+    width: 200px;
+    padding: 10px;
+    color: white;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+}
+
+.instructions {
+    padding: 10px;
+    background-color: burlywood;
+    color: rgb(53, 144, 53);
+    width: 500px;
+}
+
+
+#target {
+    float:left;
+    background-color: lightseagreen;
+    height: 100px;
+    width: 200px;
+    margin: 10px 10px 10px 0px;
+    font-size: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#stats {
+    background-color: lightskyblue;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    margin: 10px 10px 10px 0px;
+}
+
+img {
+    width: 8%;
+}
+
+p {
+    margin: 10px;
+}
+
+.totalScorePrompt {
+    background-color: rgb(46, 117, 114);
+    width: 200px;
+    padding: 10px;
+    margin: 10px 10px 10px 0px;
+}
+
+#score {
+    height: 100px;
+    width: 200px;
+    background-color: rgb(46, 117, 114);
+    padding: 10px;
+    font-size: 30px;
+}
